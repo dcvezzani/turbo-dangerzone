@@ -10,5 +10,5 @@ I am so excited there is a game engine that uses Ruby code.  I'm looking forward
 
 * TrekCore[http://www.trekcore.com/audio/] for the Star Trek sound effect.
 * Fantendo[http://fantendo.wikia.com/wiki/File:Star.PNG] for star.
-* {Wikipedia}[http://en.wikipedia.org/wiki/File:Hubble_ultra_deep_field_high_rez_edit1.jpg] for star field background.
+* {Wikipedia}[http://goo.gl/FQ7Qr] for star field background.
 * Findicons[http://findicons.com/icon/93546/alienblaster?id=274818] for the space ship.
