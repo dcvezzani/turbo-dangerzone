@@ -2,7 +2,7 @@
 
 Gosu 2D game engine tutorial app.
 
-Yes, this was created from the <a href="https://github.com/jlnr/gosu/wiki/Ruby-Tutorial">Gosu site</a>.
+Yes, this was created from the {Gosu site}[https://github.com/jlnr/gosu/wiki/Ruby-Tutorial].
 
 I am so excited there is a game engine that uses Ruby code.  I'm looking forward to having some fun with this.
 
@@ -10,5 +10,5 @@ I am so excited there is a game engine that uses Ruby code.  I'm looking forward
 
 * TrekCore[http://www.trekcore.com/audio/] for the Star Trek sound effect.
 * Fantendo[http://fantendo.wikia.com/wiki/File:Star.PNG] for star.
-* <a href="http://en.wikipedia.org/wiki/File:Hubble_ultra_deep_field_high_rez_edit1.jpg">Wikipedia</a> for star field background.
+* {Wikipedia}[http://en.wikipedia.org/wiki/File:Hubble_ultra_deep_field_high_rez_edit1.jpg] for star field background.
 * Findicons[http://findicons.com/icon/93546/alienblaster?id=274818] for the space ship.
