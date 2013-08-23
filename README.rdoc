@@ -12,3 +12,10 @@ I am so excited there is a game engine that uses Ruby code.  I'm looking forward
 * Fantendo[http://fantendo.wikia.com/wiki/File:Star.PNG] for star.
 * {Wikipedia}[http://goo.gl/FQ7Qr] for star field background.
 * Findicons[http://findicons.com/icon/93546/alienblaster?id=274818] for the space ship.
+
+=begin rdoc
+RDoc user guide so I know how to generate markup!
+========
+http://rdoc.rubyforge.org/RDoc/Markup.html
+
+=end
