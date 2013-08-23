@@ -5,6 +5,8 @@ require './star.rb'
 require './player'
 
 class GameWindow < Gosu::Window
+  #attr_reader :player
+
   def initialize
     super(640, 480, false)
     self.caption = "Gosu Tutorial Game"
@@ -18,6 +20,8 @@ class GameWindow < Gosu::Window
     @stars = Array.new
 
     @font = Gosu::Font.new(self, Gosu::default_font_name, 20)
+
+    @warp_active = false
   end
 
   def update
@@ -29,12 +33,28 @@ class GameWindow < Gosu::Window
     end
     if button_down? Gosu::KbUp or button_down? Gosu::GpButton0 then
       @player.accelerate
+    elsif button_down? Gosu::KbDown or button_down? Gosu::GpButton1 then
+      @player.reverse_accelerate
     end
+
+    if !@warp_active and button_down? Gosu::KbW
+        @player.warp(rand(50..590), rand(50..430))
+        @warp_active = true
+    end
+
     @player.move
     @player.collect_stars(@stars)
 
     if rand(100) < 4 and @stars.size < 25 then
       @stars.push(Star.new(@star_anim))
+    end
+  end
+
+  def button_up(id)
+    if id == Gosu::KbW
+      if(@warp_active)
+        @warp_active = false
+      end
     end
   end
 
